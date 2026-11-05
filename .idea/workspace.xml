@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7432bf91-4182-467b-aff5-e8df1df335bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kafka_transactions_database.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kafka_transactions.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="7432bf91-4182-467b-aff5-e8df1df335bb" name="Changes" comment="Adjusts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/KafkaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/service/TransferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/service/TransferServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,65 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="9.168815911023603E-18" />
+      <entry key="MS500" value="5.406836009609627E-4" />
+      <entry key="S2" value="0.2550162485563217" />
+      <entry key="S5" value="1.039987879890164" />
+      <entry key="S10" value="2.044583124889237" />
+      <entry key="S30" value="3.927973312421169" />
+      <entry key="S60" value="4.810326462524584" />
+      <entry key="M2" value="5.359749566369674" />
+      <entry key="M5" value="5.731945865956877" />
+      <entry key="M10" value="5.8638852123647" />
+      <entry key="M15" value="5.908818102805027" />
+      <entry key="M30" value="5.962244482383545" />
+      <entry key="H1" value="6.104213195427614" />
+      <entry key="H2" value="6.49286554367201" />
+      <entry key="H4" value="6.99860530935066" />
+      <entry key="D1" value="7.78213049671784" />
+      <entry key="W1" value="7.967330596266124" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000000001826752" />
+      <entry key="MS500" value="1.0112806968400194" />
+      <entry key="S2" value="1.325920836485674" />
+      <entry key="S5" value="1.6550249391562" />
+      <entry key="S10" value="1.970052309776839" />
+      <entry key="S30" value="2.8047895689135975" />
+      <entry key="S60" value="3.3712698337079785" />
+      <entry key="M2" value="3.907050180117384" />
+      <entry key="M5" value="4.452624587459029" />
+      <entry key="M10" value="4.702166152525525" />
+      <entry key="M15" value="4.795534784860041" />
+      <entry key="M30" value="4.894663177835588" />
+      <entry key="H1" value="4.946526096645703" />
+      <entry key="H2" value="4.973057867810057" />
+      <entry key="H4" value="4.98647715463152" />
+      <entry key="D1" value="4.997738959392477" />
+      <entry key="W1" value="4.999676816519569" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.752168261816466E-5" />
+      <entry key="MS500" value="0.15502947708910647" />
+      <entry key="S2" value="0.9830360473868816" />
+      <entry key="S5" value="2.2061542514717773" />
+      <entry key="S10" value="3.553167682811889" />
+      <entry key="S30" value="6.403046167829228" />
+      <entry key="S60" value="7.969563481560355" />
+      <entry key="M2" value="9.14407514933251" />
+      <entry key="M5" value="10.13019619802251" />
+      <entry key="M10" value="10.537812774432876" />
+      <entry key="M15" value="10.68527713460411" />
+      <entry key="M30" value="10.847240138723373" />
+      <entry key="H1" value="11.045871653379878" />
+      <entry key="H2" value="11.463480225781126" />
+      <entry key="H4" value="11.983858132380812" />
+      <entry key="D1" value="12.77966494510912" />
+      <entry key="W1" value="12.966978184263722" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 7
@@ -57,6 +110,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.PaymentsApplication.executor": "Run",
     "Spring Boot.WithdrawalServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -122,5 +176,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adjusts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusts" />
   </component>
 </project>
