@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7432bf91-4182-467b-aff5-e8df1df335bb" name="Changes" comment="Adjusts">
+    <list default="true" id="7432bf91-4182-467b-aff5-e8df1df335bb" name="Changes" comment="Creating Jpa Transaction Manager">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/KafkaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/service/TransferServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/src/main/java/com/alexandrel5/estore/transfers/service/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransferService/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,61 +41,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="9.168815911023603E-18" />
-      <entry key="MS500" value="5.406836009609627E-4" />
-      <entry key="S2" value="0.2550162485563217" />
-      <entry key="S5" value="1.039987879890164" />
-      <entry key="S10" value="2.044583124889237" />
-      <entry key="S30" value="3.927973312421169" />
-      <entry key="S60" value="4.810326462524584" />
-      <entry key="M2" value="5.359749566369674" />
-      <entry key="M5" value="5.731945865956877" />
-      <entry key="M10" value="5.8638852123647" />
-      <entry key="M15" value="5.908818102805027" />
-      <entry key="M30" value="5.962244482383545" />
-      <entry key="H1" value="6.104213195427614" />
-      <entry key="H2" value="6.49286554367201" />
-      <entry key="H4" value="6.99860530935066" />
-      <entry key="D1" value="7.78213049671784" />
-      <entry key="W1" value="7.967330596266124" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000004314" />
+      <entry key="S5" value="1.000011338499255" />
+      <entry key="S10" value="1.0035534910396087" />
+      <entry key="S30" value="1.2873849896746474" />
+      <entry key="S60" value="2.2488111001963764" />
+      <entry key="M2" value="4.464247460412283" />
+      <entry key="M5" value="10.85477969245578" />
+      <entry key="M10" value="17.19755931482663" />
+      <entry key="M15" value="20.48531713860071" />
+      <entry key="M30" value="24.668607938506586" />
+      <entry key="H1" value="27.27548343201634" />
+      <entry key="H2" value="29.006330759786398" />
+      <entry key="H4" value="30.22483405698674" />
+      <entry key="D1" value="31.64650545275442" />
+      <entry key="W1" value="31.947743364263847" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000001826752" />
-      <entry key="MS500" value="1.0112806968400194" />
-      <entry key="S2" value="1.325920836485674" />
-      <entry key="S5" value="1.6550249391562" />
-      <entry key="S10" value="1.970052309776839" />
-      <entry key="S30" value="2.8047895689135975" />
-      <entry key="S60" value="3.3712698337079785" />
-      <entry key="M2" value="3.907050180117384" />
-      <entry key="M5" value="4.452624587459029" />
-      <entry key="M10" value="4.702166152525525" />
-      <entry key="M15" value="4.795534784860041" />
-      <entry key="M30" value="4.894663177835588" />
-      <entry key="H1" value="4.946526096645703" />
-      <entry key="H2" value="4.973057867810057" />
-      <entry key="H4" value="4.98647715463152" />
-      <entry key="D1" value="4.997738959392477" />
-      <entry key="W1" value="4.999676816519569" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.1874116372286095E-210" />
+      <entry key="S2" value="4.966397734422526E-53" />
+      <entry key="S5" value="2.6971694032000183E-21" />
+      <entry key="S10" value="1.3253116865158755E-10" />
+      <entry key="S30" value="0.0024750105381123595" />
+      <entry key="S60" value="0.20684376991749642" />
+      <entry key="M2" value="2.28930927311267" />
+      <entry key="M5" value="11.204416313678468" />
+      <entry key="M10" value="19.80758062038357" />
+      <entry key="M15" value="24.091639088941296" />
+      <entry key="M30" value="29.39847606414451" />
+      <entry key="H1" value="32.517533128725105" />
+      <entry key="H2" value="34.21056468553771" />
+      <entry key="H4" value="35.092864682610944" />
+      <entry key="D1" value="35.84705394607518" />
+      <entry key="W1" value="35.978107112982876" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="8.752168261816466E-5" />
-      <entry key="MS500" value="0.15502947708910647" />
-      <entry key="S2" value="0.9830360473868816" />
-      <entry key="S5" value="2.2061542514717773" />
-      <entry key="S10" value="3.553167682811889" />
-      <entry key="S30" value="6.403046167829228" />
-      <entry key="S60" value="7.969563481560355" />
-      <entry key="M2" value="9.14407514933251" />
-      <entry key="M5" value="10.13019619802251" />
-      <entry key="M10" value="10.537812774432876" />
-      <entry key="M15" value="10.68527713460411" />
-      <entry key="M30" value="10.847240138723373" />
-      <entry key="H1" value="11.045871653379878" />
-      <entry key="H2" value="11.463480225781126" />
-      <entry key="H4" value="11.983858132380812" />
-      <entry key="D1" value="12.77966494510912" />
-      <entry key="W1" value="12.966978184263722" />
+      <entry key="MS100" value="0.49654624771851796" />
+      <entry key="MS500" value="0.8693445600900217" />
+      <entry key="S2" value="0.9656016189078802" />
+      <entry key="S5" value="0.9861064872134601" />
+      <entry key="S10" value="0.9964465893175505" />
+      <entry key="S30" value="1.2796402401936395" />
+      <entry key="S60" value="2.418061846920094" />
+      <entry key="M2" value="6.669789767646052" />
+      <entry key="M5" value="21.943718008724705" />
+      <entry key="M10" value="36.9101948332301" />
+      <entry key="M15" value="44.501414226407945" />
+      <entry key="M30" value="54.02174289538684" />
+      <entry key="H1" value="59.76812194837956" />
+      <entry key="H2" value="63.20384375514385" />
+      <entry key="H4" value="65.31101501248469" />
+      <entry key="D1" value="67.49242287224443" />
+      <entry key="W1" value="67.92568755437462" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -110,6 +113,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.DepositServiceApplication.executor": "Run",
+    "Spring Boot.MockserviceApplication.executor": "Run",
     "Spring Boot.PaymentsApplication.executor": "Run",
     "Spring Boot.WithdrawalServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
@@ -121,7 +126,35 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.PaymentsApplication">
+  <component name="RunManager" selected="Spring Boot.DepositServiceApplication">
+    <configuration name="DepositServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="DepositService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexandrel5.estore.DepositService.DepositServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.estore.DepositService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="mockservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alexandrel5.ws.mockservice.MockserviceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexandrel5.ws.mockservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="transfers" />
@@ -152,8 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentsApplication" />
+        <item itemvalue="Spring Boot.DepositServiceApplication" />
         <item itemvalue="Spring Boot.WithdrawalServiceApplication" />
+        <item itemvalue="Spring Boot.MockserviceApplication" />
+        <item itemvalue="Spring Boot.PaymentsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adjusts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusts" />
+    <MESSAGE value="Creating Jpa Transaction Manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Jpa Transaction Manager" />
   </component>
 </project>
